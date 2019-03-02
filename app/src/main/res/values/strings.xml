@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Adventure Simulator</string>
+    <string name="menu_text">Adventure Simulator</string>
+    <string name="start_button">Start</string>
+    <string name="exit_button">Exit</string>
+    <string name="options_button">options</string>
+    <string name="tutorial_text">Tutorial</string>
+    <string name="Options_text">Options</string>
+    <string name="diff_spinner">Difficulty</string>
+    <string name="tutorial_dialogue">Welcome to Adventure Simulator!
+        "\n\n" Click twice to continue…
+    </string>
+
+    <string-array name="dialog">
+        <item>This is a text-based adventure game that relies on unique user choices.
+        </item>
+        <item>Be careful how you play, and
+            choose wisely! "\n\n" Click to start the adventure…</item>
+    </string-array>
+
+    <string-array name="entity">
+        <item>Skeleton</item>
+        <item>Cave Dweller</item>
+        <item>Creature of Darkness</item>
+        <item>Slime</item>
+        <item>Corrupted Mage</item>
+        <item>Orc</item>
+        <item>Goblin</item>
+    </string-array>
+</resources>

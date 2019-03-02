@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/menu_cave"
+                tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_text"
+            android:textSize="60sp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/red"
+            android:layout_alignParentTop="true"
+            android:textAlignment="center"
+            android:id="@+id/title"
+
+    />
+
+
+
+    <Button android:layout_width="match_parent"
+            android:id="@+id/start_button"
+            android:layout_height="60dp"
+            android:layout_below="@+id/title"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="100dp"
+            android:background="@color/transparent_black"
+            android:text="@string/start_button"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:onClick="buttonClickStart"
+    />
+
+
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/exit_button"
+            android:layout_below="@+id/start_button"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="150dp"
+            android:background="@color/transparent_black"
+            android:text="@string/exit_button"
+            android:textColor="@color/white"
+            android:onClick="buttonClickExit"
+            android:textSize="40sp"
+    />
+
+
+
+
+</RelativeLayout>
